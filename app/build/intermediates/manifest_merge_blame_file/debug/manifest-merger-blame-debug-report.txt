@@ -1,0 +1,235 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aws.blogapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:25:5-68
+14-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:25:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:26:5-110
+15-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:26:22-79
+17
+18    <permission
+18-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:28:5-30:47
+19        android:name="com.example.aws.blogapp.permission.C2D_MESSAGE"
+19-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:29:9-63
+20        android:protectionLevel="signature" />
+20-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:30:9-44
+21
+22    <uses-permission android:name="com.example.aws.blogapp.permission.C2D_MESSAGE" />
+22-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:32:5-79
+22-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:32:22-76
+23
+24    <application
+24-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:8:5-29:19
+25        android:allowBackup="true"
+25-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:9:9-35
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:10:9-43
+28        android:label="@string/app_name"
+28-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:11:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:12:9-54
+30        android:supportsRtl="true"
+30-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:13:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:14:9-40
+33        <activity android:name="com.example.aws.blogapp.Activities.RegisterActivity" />
+33-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:15:9-65
+33-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:15:19-62
+34        <activity android:name="com.example.aws.blogapp.Activities.HomeActivity" />
+34-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:16:9-61
+34-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:16:19-58
+35        <activity android:name="com.example.aws.blogapp.Activities.LoginActivity" >
+35-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:17:9-23:20
+35-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:17:19-59
+36            <intent-filter>
+36-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:18:13-22:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:19:17-69
+37-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:19:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:21:17-77
+39-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:21:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:24:9-27:59
+43            android:name="com.example.aws.blogapp.Activities.Home"
+43-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:25:13-44
+44            android:label="@string/title_activity_home"
+44-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:26:13-56
+45            android:theme="@style/AppTheme.NoActionBar" />
+45-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:27:13-56
+46        <activity android:name="com.example.aws.blogapp.Activities.PostDetailActivity" />
+46-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:28:9-76
+46-->/Users/yuktigoswami/Desktop/BlogApp/app/src/main/AndroidManifest.xml:28:19-64
+47
+48        <receiver
+48-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:29:9-33:20
+49            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+49-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:30:13-85
+50            android:enabled="true"
+50-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:31:13-35
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:32:13-37
+52        </receiver>
+53        <receiver
+53-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:34:9-42:20
+54            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+54-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:35:13-100
+55            android:enabled="true"
+55-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:36:13-35
+56            android:exported="true"
+56-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:37:13-36
+57            android:permission="android.permission.INSTALL_PACKAGES" >
+57-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:38:13-69
+58            <intent-filter>
+58-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:39:13-41:29
+59                <action android:name="com.android.vending.INSTALL_REFERRER" />
+59-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:40:17-79
+59-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:40:25-76
+60            </intent-filter>
+61        </receiver>
+62
+63        <service
+63-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:44:9-47:40
+64            android:name="com.google.android.gms.measurement.AppMeasurementService"
+64-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:45:13-84
+65            android:enabled="true"
+65-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:46:13-35
+66            android:exported="false" />
+66-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:47:13-37
+67        <service
+67-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:48:9-52:72
+68            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+68-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:49:13-87
+69            android:enabled="true"
+69-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:50:13-35
+70            android:exported="false"
+70-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:51:13-37
+71            android:permission="android.permission.BIND_JOB_SERVICE" />
+71-->[com.google.firebase:firebase-analytics:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2d45db7c99db79b5b2db68b013a180f0/firebase-analytics-16.0.1/AndroidManifest.xml:52:13-69
+72
+73        <activity
+73-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:23:9-29:75
+74            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+74-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:24:13-85
+75            android:excludeFromRecents="true"
+75-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:25:13-46
+76            android:exported="true"
+76-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:26:13-36
+77            android:launchMode="singleInstance"
+77-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:27:13-48
+78            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+78-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:28:13-102
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:29:13-72
+80
+81        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+81-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:31:9-35:19
+81-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:31:18-89
+82            <meta-data
+82-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+83-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:33:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-auth:16.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/2474bf9634ad711ae84bedf1b0b7c234/firebase-auth-16.0.1/AndroidManifest.xml:34:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:36:13-38:85
+86                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+86-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:37:17-96
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:38:17-82
+88        </service>
+89
+90        <receiver
+90-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:41:9-50:20
+91            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+91-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:42:13-78
+92            android:exported="true"
+92-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:43:13-36
+93            android:permission="com.google.android.c2dm.permission.SEND" >
+93-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:44:13-73
+94            <intent-filter>
+94-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:45:13-49:29
+95                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+95-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:46:17-81
+95-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:46:25-78
+96
+97                <category android:name="com.example.aws.blogapp" />
+97-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:48:17-61
+97-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:48:27-58
+98            </intent-filter>
+99        </receiver>
+100        <!--
+101             FirebaseInstanceIdService performs security checks at runtime,
+102             no need for explicit permissions despite exported="true"
+103        -->
+104        <service
+104-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:56:9-62:19
+105            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+105-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:57:13-77
+106            android:exported="true" >
+106-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:58:13-36
+107            <intent-filter android:priority="-500" >
+107-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:59:13-61:29
+107-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:59:28-51
+108                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+108-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:60:17-80
+108-->[com.google.firebase:firebase-iid:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/d6fa2c3649eec221fda4deed88bb18e3/firebase-iid-16.0.0/AndroidManifest.xml:60:25-77
+109            </intent-filter>
+110        </service>
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/12af3211ce1bb036d8efa5896678c73f/firebase-common-16.0.0/AndroidManifest.xml:9:9-13:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/12af3211ce1bb036d8efa5896678c73f/firebase-common-16.0.0/AndroidManifest.xml:10:13-77
+114            android:authorities="com.example.aws.blogapp.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/12af3211ce1bb036d8efa5896678c73f/firebase-common-16.0.0/AndroidManifest.xml:11:13-72
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/12af3211ce1bb036d8efa5896678c73f/firebase-common-16.0.0/AndroidManifest.xml:12:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:16.0.0] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/12af3211ce1bb036d8efa5896678c73f/firebase-common-16.0.0/AndroidManifest.xml:13:13-36
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:15.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:15.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:15.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:15.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:15.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:15.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:15.0.1] /Users/yuktigoswami/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+126    </application>
+127
+128</manifest>
